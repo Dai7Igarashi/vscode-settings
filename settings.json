@@ -1,0 +1,47 @@
+{
+  // editor
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+
+  // javascript, nodejs
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "editor.guides.bracketPairs": true,
+
+  // python
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "python.linting.mypyEnabled": true,
+  "python.linting.mypyArgs": [
+    "--follow-imports=silent",
+    "--ignore-missing-imports",
+    "--show-column-numbers",
+    "--no-pretty",
+    "--warn-return-any",
+    "--no-implicit-optional",
+    "--disallow-untyped-calls",
+    "--disallow-untyped-defs",
+    "--ignore-missing-imports",
+    "--follow-imports=skip"
+  ],
+  "python.linting.mypyCategorySeverity.error": "Hint",
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": [
+    "--line-length",
+    "79",
+    "--experimental-string-processing"
+  ],
+  "java.configuration.updateBuildConfiguration": "interactive"
+}

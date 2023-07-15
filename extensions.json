@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    // nodejs
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    // python
+    "bungcip.better-toml",
+    "ms-python.black-formatter",
+    "ms-python.flake8",
+    "ms-python.isort",
+    "matangover.mypy",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    // SQL
+    "adpyke.vscode-sql-formatter",
+    "josephtbradley.hive-sql",
+    // Kotolin
+    "mathiasfrohlich.Kotlin",
+    // Docker
+    "ms-azuretools.vscode-docker"
+  ]
+}
